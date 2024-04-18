@@ -52,3 +52,8 @@ int main()
     printf("Hello World!");
     return 0;
 }
+
+/* Part 4
+    Data Types
+
+*/
