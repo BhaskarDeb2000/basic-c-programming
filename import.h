@@ -10,3 +10,5 @@ void printName(char firstName[2], char lastname[2])
 {
     printf("My name is %s %s\n", firstName, lastname);
 }
+
+printf("hello world!");
