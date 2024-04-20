@@ -1,10 +1,14 @@
 #include <stdio.h>
+#include "import.h"
 
 int main()
 {
     /*
     "\n" means new line
- */
+*/
+    addNumber(5, 6);
+    addNumber(39, 23);
+    printName("Bhaskar", "Deb");
     char ch = 'j';      // single character
     printf("%c\n", ch); // Using %c to print a single character
     printf("%d\n", ch); // When %d is used, ASCII value(represents the character variable in numbers) is displayed
@@ -92,8 +96,8 @@ int main()
 
     // multiple values example
 
-    char firstName[5];
-    char lastName[5];
+    char firstName[10];
+    char lastName[10];
     int age;
 
     printf("Enter you FirstName LastName and age: "); // e.g. input Alak Dam 20
